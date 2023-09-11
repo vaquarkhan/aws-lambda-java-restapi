@@ -25,18 +25,20 @@ mvn test
 
 ======================================================================
 
-{
-  "x": 11,
-  "y": 20,
-  "message": "Hello World!"
-}
+   {
+        "x": 11,
+        "y": 20,
+        "message": "Hello World!"
+   }
+   
 ==================================================================
 
-update HandlerInfo:
+    update HandlerInfo:
 
                org.awslambda.restapi.HandlerIntegerJava17::handleRequest
 
 Note : packagename.classname::public method name
+
 ==================================================================
 
 			package org.awslambda.restapi;
